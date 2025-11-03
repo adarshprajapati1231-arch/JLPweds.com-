@@ -1,0 +1,267 @@
+:root{
+  --maroon:#7B1E27;
+  --maroon-dark:#5b1318;
+  --cream:#FAF5F2;
+  --blush:#F7E6E0;
+  --gold:#D4AF37;
+  --muted:#5A4B47;
+  --heading:#3E2C2C;
+  --card-radius:12px;
+}
+*{box-sizing:border-box}
+body{
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin:0; background:var(--cream); color:var(--muted); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  line-height:1.4; /* Reduced ..line height */
+  font-size:14px; /* Reduced base font size from 15px to 14px */
+}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:transparent} /* Reduced padding */
+
+/* EDITED: Combined logo elements for better alignment and reduced gap */
+.logo{display:flex;align-items:center;gap:9px;font-weight:700;color:var(--maroon);font-family:'Playfair Display',serif;}
+
+
+.round-logo {
+  border-radius: 50%; /* makes it perfectly round */
+  width: 30px;        /* optional: control width if needed */
+  height: 30px;       /* keep height equal to width for perfect circle */
+  object-fit: cover;  /* ensures image fills circle without stretching */
+}
+
+
+
+nav{display:flex;gap:14px;align-items:center} /* Reduced gap */
+nav a{color:var(--muted);text-decoration:none;font-size:12px;letter-spacing:0.5px; transition:color 0.2s} /* Reduced font size, added transition */
+nav a:hover{color:var(--maroon)}/* HERO */
+.hero{padding:30px 20px;text-align:center} /* Reduced padding */
+.hero-inner{max-width:980px;margin:0 auto}
+.eyebrow{display:inline-block;background:var(--blush);color:var(--maroon);padding:4px 8px;border-radius:999px;font-weight:600;font-size:11px} /* Reduced padding and font size */
+h1{font-family:'Playfair Display',serif;color:var(--heading);font-weight:600;margin:14px 0 4px;font-size:30px} /* Reduced margin and font size */
+p.lead{color:var(--muted);margin:0 0 14px;max-width:760px;margin-left:auto;margin-right:auto;font-size:13px} /* Reduced margin and font size */
+.search-row{display:flex;gap:8px;justify-content:center;margin-top:14px} /* Reduced gap and margin */
+.search-row input[type="search"]{padding:10px 14px;border-radius:999px;border:1px solid #e7dfdc;width:420px;max-width:80vw;font-size:14px} /* Reduced padding and increased max-width for better mobile fill */
+.category-pills{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:10px} /* Reduced gap and margin */
+.pill{padding:6px 10px;border-radius:999px;background:#fff;border:1px solid #f1e9e8;color:var(--maroon);font-size:12px;cursor:pointer; transition:background 0.2s, color 0.2s, transform 0.1s} /* Reduced padding/font, added transitions */
+.pill:hover{background:var(--blush)}
+.pill.active{background:var(--maroon);color:white}
+
+/* Services grid */
+.section{padding:20px} /* Reduced padding */
+.section h2{font-family:'Playfair Display',serif;color:var(--maroon);letter-spacing:1px;font-size:16px;margin:4px 0 10px} /* Reduced font size and margin */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px} /* Reduced gap */
+@media (max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.grid{grid-template-columns:1fr; gap:10px}} /* Reduced mobile gap */
+
+.card{background:white;border-radius:var(--card-radius);box-shadow:0 4px 12px rgba(66,43,43,0.05);overflow:hidden;display:flex;flex-direction:column; transition:transform 0.2s} /* Reduced shadow, added transition */
+.card:hover{transform:translateY(-2px); box-shadow:0 6px 16px rgba(66,43,43,0.08);}
+.card .media{height:140px; /* Reduced card image height from 170px to 140px */
+background:linear-gradient(135deg,#fdf1f1,#fff);display:block}
+.tag{position:absolute;right:8px;top:8px;background:var(--blush);color:var(--maroon);padding:4px 6px;border-radius:999px;font-size:11px} /* Reduced padding and font size */
+.card-body{padding:10px} /* Reduced card body padding */
+.card h3{margin:0 0 4px;color:var(--heading);font-family:'Playfair Display',serif;font-size:16px} /* Reduced margin and font size */
+.card p{margin:0 0 6px;color:var(--muted);font-size:12px; line-height:1.3} /* Reduced margin and font size, tight line height */
+.price{font-weight:600;color:var(--maroon);margin-bottom:6px;font-size:14px} /* Reduced weight and margin */
+.btn{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--maroon);color:white;font-size:12px;text-decoration:none;border:none;cursor:pointer; transition:background 0.2s, transform 0.1s} /* Reduced padding and font size, added transitions */
+.btn:hover{background:var(--maroon-dark); transform:translateY(-1px);}
+
+/* modal - Glass Blur Effect and Animation */
+.modal-backdrop{
+  position:fixed;inset:0;
+  background:rgba(0,0,0,0.2); /* Reduced opacity */
+  backdrop-filter: blur(10px); /* Glass blur effect */
+  display:none;align-items:center;justify-content:center;padding:20px;
+  opacity: 0; /* Initial state for animation */
+  transition: opacity 0.3s ease; /* Smooth transition for background */
+  z-index: 1000; /* Ensure modals are on top */
+}
+.modal-backdrop.show { /* Class added by JS to show with animation */
+  opacity: 1;
+}
+.modal{
+  background:rgba(255, 255, 255, 0.9); /* Slightly transparent white for premium feel */
+  border-radius:14px;padding:18px;max-width:520px;width:100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95); /* Initial state for animation */
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Smooth, slightly bouncy transition */
+}
+.modal-backdrop.show .modal { /* Final state for animation */
+  transform: scale(1);
+}
+
+.modal h3{margin:0 0 6px; font-size:18px}
+.form-row{display:flex;gap:8px;margin-bottom:8px} /* Reduced gap and margin */
+.form-row .field{flex:1}
+input[type="text"], input[type="tel"], input[type="date"], input[type="time"], input[type="number"], select{width:100%;padding:8px;border-radius:6px;border:1px solid #eee; font-size:13px} /* Reduced padding and font size */
+label{display:block;font-size:11px;color:var(--muted);margin-bottom:4px} /* Reduced font size and margin */
+.small{font-size:12px;color:#7c6f6f} /* Reduced font size */
+
+/* Modal Image Gallery */
+#imageGallery img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+    cursor: pointer; /* Added cursor to indicate clickability */
+}
+#imageGallery img:hover {
+    opacity: 1;
+}
+
+
+footer{background:var(--maroon);color:#fff;padding:16px 20px;margin-top:20px;font-size:13px} /* Reduced padding and font size */
+.footer-grid{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap} /* Reduced gap */
+.footer-grid div{flex:1;min-width:140px} /* Reduced min-width */
+.copyright{text-align:center;margin-top:8px;font-size:12px;color:rgba(255,255,255,1)} /* Reduced margin and font size */
+
+
+/* helper */
+.muted{color:white;font-size:12px} /* Reduced font size */
+.hidden{display:none !important;}
+
+/* ... */
+.copyright{text-align:center;margin-top:12px;font-size:12px;color:rgba(255,255,255,1)} /* Reduced font size */
+
+/* searchable select hack */
+.other-input{margin-top:6px}
+
+
+/* Gallery Modal Styles (New) */
+.gallery-modal {
+    background: rgba(255, 255, 255, 0.1); /* Very light glass */
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    overflow: hidden;
+    max-width: 900px;
+    height: 90vh; /* Set a max height */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 18px; /* Premium round corners */
+}
+.gallery-container {
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px; /* Slightly smaller border radius inside */
+}
+.gallery-track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+.gallery-track img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: contain; /* Contain to show full image without cropping */
+    border-radius: 14px;
+}
+.gallery-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 50;
+    transition: background 0.2s;
+    border-radius: 50%;
+    line-height: 1;
+}
+.gallery-nav:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+.gallery-nav.prev {
+    left: 10px;
+}
+.gallery-nav.next {
+    right: 10px;
+}
+@media (max-width: 640px) {
+    .gallery-modal {
+        height: 80vh;
+    }
+    .gallery-nav {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* --- New Vendor CTA Styles (Beige Box Design) --- */
+
+.vendor-cta-new {
+    /* Full-width container to center the box */
+    padding: 25px 20px;
+    background: var(--cream); /* Light cream background for the full section */
+    text-align: center;
+    margin: 30px 0;
+}
+
+.vendor-cta-new .cta-inner-box {
+    max-width: 650px; /* Control the width of the inner box */
+    margin: 0 auto;
+    padding: 25px 30px;
+    background: var(--blush); /* Rectangular Beige/Blush color box */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-message {
+    color: var(--maroon-dark); /* Dark text for contrast */
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 18px; /* Space above the button */
+    font-weight: 500;
+}
+.cta-message strong {
+    font-weight: 700;
+    color: var(--maroon);
+}
+
+
+/* Maroon Register Button Style */
+.cta-register-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 6px;
+    background: var(--maroon); /* Maroon color */
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    border: 2px solid var(--maroon); /* Maroon border */
+}
+
+.cta-register-btn:hover {
+    background: var(--maroon-dark); /* Slightly darker maroon on hover */
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    .vendor-cta-new .cta-inner-box {
+        padding: 20px 15px;
+    }
+    .cta-register-btn {
+        width: 100%; /* Full width button on small screens */
+    }
+}

@@ -1,0 +1,410 @@
+[
+  {
+    "category": "Cars",
+    "description": "Premium vehicles for the perfect Baraat and guest transportation.",
+    "subcategories": [
+      {
+        "serviceId": "JL-C-001",
+        "title": "Mahindra Scorpio Luxury",
+        "price": "₹3,999 onwards",
+        "vendorName": "Royal Car Rentals",
+        "location": "Jalalpur",
+        "description": "The rugged choice for a grand entry, chauffeur-driven. Price based on usage/time or calculated per km for fixed trips.",
+        "basePrice": 1000,
+        "pricePerKm": 25,
+        "images": [
+          "https://i.pinimg.com/1200x/21/83/7d/21837dd4e4ad3a8597f6bfbd235588b7.jpg",
+          "https://i.pinimg.com/73x/8a/a8/5a/8aa85a0c3f59e6c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-C-002",
+        "title": "Maruti Baleno (Guest Car)",
+        "price": "₹2,500 onwards",
+        "vendorName": "Royal Car Rentals",
+        "location": "Akbarpur",
+        "description": "Comfortable and modern sedan for close family and guests. Price based on usage/time or calculated per km for fixed trips.",
+        "basePrice": 800,
+        "pricePerKm": 18,
+        "images": [
+          "https://i.pinimg.com/736x/4a/8b/7f/4a8b7fa07cced3c4592ed78e6120585b.jpg",
+          "https://i.pinimg.com/1200x/81/8f/af/818faffc0fe404c7080cb93bb72c9f5c.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-C-003",
+        "title": "Mahindra Bolero (Utility)",
+        "price": "₹3,000 onwards",
+        "vendorName": "Royal Car Rentals",
+        "location": "Tanda",
+        "description": "Reliable SUV for local travel and large family transport. Price based on usage/time or calculated per km for fixed trips.",
+        "basePrice": 900,
+        "pricePerKm": 22,
+        "images": [
+          "https://i.pinimg.com/1200x/81/8f/af/818faffc0fe404c7080cb93bb72c9f5c.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-C-004",
+        "title": "Audi A4 Luxury Sedan",
+        "price": "₹8,500 onwards",
+        "vendorName": "Elite Motors",
+        "location": "Jalalpur",
+        "description": "Luxury sedan for the groom's entry or VIP transport. Price based on usage/time or calculated per km for fixed trips.",
+        "basePrice": 3000,
+        "pricePerKm": 40,
+        "images": [
+          "https://i.pinimg.com/1200x/91/54/6a/91546a2db37d4848982d22929d53be6c.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-C-005",
+        "title": "Toyota Fortuner",
+        "price": "₹7,500 onwards",
+        "vendorName": "Heritage Rides",
+        "location": "Akbarpur",
+        "description": "Classic look for a timeless wedding album. Price based on usage/time or calculated per km for fixed trips.",
+        "basePrice": 1500,
+        "pricePerKm": 30,
+        "images": [
+          "https://i.pinimg.com/736x/da/c5/9c/dac59cba1d523a2a3d28c56950bb51c9.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Wedding Halls",
+    "description": "Beautiful marriage and banquet halls for grand celebrations.",
+    "subcategories": [
+      {
+        "serviceId": "JL-H-001",
+        "title": "Sagun Marriage Hall",
+        "price": "₹25,000 onwards",
+        "vendorName": "Sagun Management",
+        "location": "Jalalpur",
+        "description": "Spacious lawn and covered banquet area for 500+ guests.",
+        "images": [
+          "https://i.pinimg.com/1200x/25/e5/87/25e587165685712af6181e7356b007b5.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-H-002",
+        "title": "Dulhan Marriage Hall",
+        "price": "₹35,000 onwards",
+        "vendorName": "Dulhan Properties",
+        "location": "Akbarpur",
+        "description": "Premium hall with in-house catering options.",
+        "images": [
+          "https://pinimgjlpweds.netlify.app/pinimg/cars/car1.png"
+        ]
+      },
+      {
+        "serviceId": "JL-H-003",
+        "title": "Grand Palace Resort",
+        "price": "₹50,000 onwards",
+        "vendorName": "Palace Venues",
+        "location": "Tanda",
+        "description": "Luxurious resort for destination wedding vibes.",
+        "images": [
+          "https://i.pinimg.com/73x/1a/0a/6e/1a0a6e61f2e5a8f0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-H-004",
+        "title": "Shri Ram Bhawan",
+        "price": "₹15,000 onwards",
+        "vendorName": "Shri Ram Estates",
+        "location": "Jalalpur",
+        "description": "Simple, traditional, and affordable hall for smaller gatherings.",
+        "images": [
+          "https://i.pinimg.com/73x/3b/4c/3d/3b4c3d2e5a8f0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-H-005",
+        "title": "Lakeside Banquet",
+        "price": "₹40,000 onwards",
+        "vendorName": "Lakeside Events",
+        "location": "Akbarpur",
+        "description": "Beautiful outdoor setting near the water for evening receptions.",
+        "images": [
+          "https://i.pinimg.com/73x/5c/4b/3c/5c4b3c2e5a8f0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tents & Setup",
+    "description": "Essential infrastructure: tenting, seating, and decorative elements.",
+    "subcategories": [
+      {
+        "serviceId": "JL-T-001",
+        "title": "Waterproof Tent (100x100ft)",
+        "price": "₹5,000 onwards",
+        "vendorName": "JLP Tents & Decor",
+        "location": "Jalalpur",
+        "description": "Large, durable tent structure for main event area.",
+        "images": [
+          "https://i.pinimg.com/1200x/91/3b/61/913b61dc126f30e16144c21c2db2daef.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-T-002",
+        "title": "Jaimala Stage Setup",
+        "price": "₹7,000 onwards",
+        "vendorName": "JLP Tents & Decor",
+        "location": "Jalalpur",
+        "description": "Elevated and decorated stage for the Varmala ceremony.",
+        "images": [
+          "https://i.pinimg.com/73x/8e/7d/5a/8e7d5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-T-003",
+        "title": "Premium Wedding Chairs (per unit)",
+        "price": "₹45 per chair",
+        "vendorName": "JLP Tents & Decor",
+        "location": "Jalalpur",
+        "description": "White/Gold Chivari style chairs with cushions.",
+        "images": [
+          "https://i.pinimg.com/73x/9f/6e/b7/9f6eb73f3c5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-T-004",
+        "title": "Catering & Service Tables",
+        "price": "₹350 per table",
+        "vendorName": "JLP Tents & Decor",
+        "location": "Jalalpur",
+        "description": "Rectangular and round tables for food service and seating.",
+        "images": [
+          "https://i.pinimg.com/73x/a2/a7/6b/a2a76b0d3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Videographers",
+    "description": "Cinematic wedding films and photography coverage.",
+    "subcategories": [
+      {
+        "serviceId": "JL-V-001",
+        "title": "The Vishal Films (4K Package)",
+        "price": "₹28,000 onwards",
+        "vendorName": "Vishal Films",
+        "location": "Akbarpur",
+        "description": "Two days coverage with 4K camera and professional editing.",
+        "images": [
+          "https://i.pinimg.com/736x/8c/fa/65/8cfa659519a292e0b70692b7925d2a5b.jpg",
+          "https://i.pinimg.com/73x/c9/e9/8b/c9e98b7e28f73f0a28f73f0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-V-002",
+        "title": "Royal Pixels (Drone Package)",
+        "price": "₹45,000 onwards",
+        "vendorName": "Royal Pixels Studio",
+        "location": "Jalalpur",
+        "description": "Full coverage including drone shots, pre-wedding shoot, and album.",
+        "images": [
+          "https://i.pinimg.com/73x/d4/f1/a2/d4f1a28f73f0a28f73f0a28f73f0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-V-003",
+        "title": "Candid Moments Co.",
+        "price": "₹22,000 onwards",
+        "vendorName": "Candid Moments Co.",
+        "location": "Tanda",
+        "description": "Specializing in natural, unposed candid photography and videography.",
+        "images": [
+          "https://i.pinimg.com/73x/e0/a3/b9/e0a3b9d6e5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Car Decoration",
+    "description": "Beautiful floral and creative decoration for the wedding car.",
+    "subcategories": [
+      {
+        "serviceId": "JL-CD-001",
+        "title": "Rose & Lily Designer",
+        "price": "₹2,000 onwards",
+        "vendorName": "Flower Power Decorators",
+        "location": "Jalalpur",
+        "description": "Elegant decoration using high-quality roses and lilies.",
+        "images": [
+          "https://i.pinimg.com/1200x/85/49/21/8549216d611254078be0a06e1efb520d.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-CD-002",
+        "title": "Marigold Specialist Decor",
+        "price": "₹1,200 onwards",
+        "vendorName": "Genda Phool Art",
+        "location": "Akbarpur",
+        "description": "Traditional and vibrant look using fresh marigold flowers.",
+        "images": [
+          "https://i.pinimg.com/73x/7d/9b/6c/7d9b6c0e3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-CD-003",
+        "title": "Luxury Ribbon & Net Decor",
+        "price": "₹3,500 onwards",
+        "vendorName": "Elite Decor Services",
+        "location": "Tanda",
+        "description": "Contemporary decoration with minimal flowers, focused on ribbon work.",
+        "images": [
+          "https://i.pinimg.com/73x/a9/f2/1c/a9f21c5b8d2e5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Makeup Artist",
+    "description": "Talented and creative makeup artists for bridal, party, and family functions.",
+    "subcategories": [
+      {
+        "serviceId": "JL-MK-011",
+        "title": "Neha's Classic Bridal Makeup",
+        "price": "₹3,000 onwards",
+        "vendorName": "Neha",
+        "location": "Jalalpur",
+        "description": "Traditional bridal makeup including hair styling and saree draping.",
+        "images": [
+          "https://i.pinimg.com/736x/68/f3/e8/68f3e896851cb9aa5cc4acf4674420d0.jpg",
+          "https://i.pinimg.com/73x/8a/a8/5a/8aa85a0c3f59e6c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-MK-012",
+        "title": "Mohini Airbrush Expert",
+        "price": "₹6,500 onwards",
+        "vendorName": "Mohini Makeup Studio",
+        "location": "Akbarpur",
+        "description": "High-definition airbrush makeup for a flawless, long-lasting look.",
+        "images": [
+          "https://i.pinimg.com/73x/1b/2c/3d/1b2c3d4e6a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-MK-013",
+        "title": "Natural Look Artist (Pre-Wedding)",
+        "price": "₹2,500 onwards",
+        "vendorName": "Glow Up Services",
+        "location": "Tanda",
+        "description": "Subtle and natural makeup for engagement or pre-wedding shoots.",
+        "images": [
+          "https://i.pinimg.com/73x/2c/3d/4e/2c3d4e6a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-MK-014",
+        "title": "Party & Guest Makeup (Group Rate)",
+        "price": "₹1,500 per person",
+        "vendorName": "Beauty Squad",
+        "location": "Jalalpur",
+        "description": "Budget-friendly option for family members and guests.",
+        "images": [
+          "https://i.pinimg.com/73x/3d/4e/5f/3d4e5f6a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-MK-015",
+        "title": "Hair & Makeup Combo",
+        "price": "₹4,500 onwards",
+        "vendorName": "Style & Shine Salon",
+        "location": "Akbarpur",
+        "description": "Complete package for hair styling, makeup, and minimal accessories.",
+        "images": [
+          "https://i.pinimg.com/73x/4e/5f/6a/4e5f6a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-MK-016",
+        "title": "Groom's Basic Makeup",
+        "price": "₹1,000 onwards",
+        "vendorName": "Male Grooming Experts",
+        "location": "Jalalpur",
+        "description": "Light foundation and anti-shine application for photography.",
+        "images": [
+          "https://i.pinimg.com/73x/5f/6a/7b/5f6a7b0e3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Mehndi & Henna Artist",
+    "description": "Expert bridal and guest henna application services, including varied design styles.",
+    "subcategories": [
+      {
+        "serviceId": "JL-M-001",
+        "title": "Artist Pooja's Full Bridal Mehendi",
+        "price": "₹3,500 onwards",
+        "vendorName": "Pooja Mehendi Art",
+        "location": "Jalalpur",
+        "description": "Intricate full bridal mehndi up to the elbows and knees with personalized design.",
+        "images": [
+          "https://i.pinimg.com/736x/cd/49/c1/cd49c1f785272b320d1d079477c86d59.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-M-002",
+        "title": "Henna by Riya (Guest Designs)",
+        "price": "₹1,500 per hour",
+        "vendorName": "Riya Henna Services",
+        "location": "Akbarpur",
+        "description": "Fast and beautiful designs for guests and family members.",
+        "images": [
+          "https://i.pinimg.com/73x/1a/0d/b3/1a0db3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-M-003",
+        "title": "Traditional Rajasthani Mehendi",
+        "price": "₹4,500 onwards",
+        "vendorName": "Khushi Mehendi",
+        "location": "Jalalpur",
+        "description": "Specialist in dense, detailed Rajasthani and Indian traditional styles.",
+        "images": [
+          "https://i.pinimg.com/73x/3c/4d/5e/3c4d5e9f6a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0c3f5a0.jpg"
+        ]
+      },
+      {
+        "serviceId": "JL-M-004",
+        "title": "Arabic & Gulf Style Mehendi",
+        "price": "₹3,000 onwards",
+        "vendorName": "Zainab Henna Art",
+        "location": "Tanda",
+        "description": "Elegant, free-flowing designs with bold outlines and minimal shading.",
+        "images": [
+          "https://photos.app.goo.gl/A3UTHz4aCL3jQ8vW8"
+        ]
+      },
+      {
+        "serviceId": "JL-M-005",
+        "title": "Glitter & Stone Mehendi",
+        "price": "₹4,000 onwards",
+        "vendorName": "Sparkle Henna",
+        "location": "Akbarpur",
+        "description": "Bridal henna enhanced with safe, temporary glitter and small decorative stones.",
+        "images": [
+          "https://pinimgjlpweds.netlify.app/pinimg/cars/car1.png"
+        ]
+      },
+      {
+        "serviceId": "JL-M-006",
+        "title": "Minimalist Hand Designs",
+        "price": "₹1,800 onwards",
+        "vendorName": "Modern Henna Co.",
+        "location": "Jalalpur",
+        "description": "Simple, contemporary mandala, bracelet, or tattoo-style designs.",
+        "images": [
+          "./assets/images/logo.png"
+        ]
+      }
+    ]
+  }
+]
